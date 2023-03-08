@@ -1,45 +1,63 @@
-<plugins>
+<strict>true</strict>
 
-<plugin>
+<monochrome>true</monochrome>
 
-<name>pretty</name>
+149
+
+</tags>
+
+150
+
+151
+
+<useTestNG>false</useTestNG>
+
+<!--['simple', feature-title', 'pattern'] -->
+
+152
+
+153
+
+154
+
+155
+
+156
+
+157
+
+158
+
+159
+
+160
+
+161
+
+162
+
+163
+
+. Z: Structure
+
+vorites
+
+164
+
+165
+
+166
+
+167
 
 </plugin>
 
 <plugin>
 
-<name>json</name>
+<groupId>org.apache.maven.plugins</groupId>
 
-</plugin>
+<artifactId>maven-surefire-plugin</artifactId>
 
-<plugin>
+<version>2.22.0</version>
 
-I
-
-<name>junit</name>
-
-</plugin>
-
-<plugin>
-
-<name>html</name>
-
-<extension>html</extension>
-
-</plugin>
-
-<plugin>
-
-<name>io.gameta.allure.cucumber4jvm. AllureCucumber43vm</name>
-
-<noOutput>true</noOutput>
-
-</plugin>
-
-<plugin>
-
-<name>rerun</name>
-
-</plugin>
-
-</plugins>
+<configuration>
