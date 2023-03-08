@@ -1,93 +1,39 @@
-<dllPath>$[settings. local Repository)\com\microsoft\sqlserver\mssql-jdbc_auth\${jdbc-mssql-auth-d11}\</d11Path>
+<filesets>
 
-</properties>
+<fileset>
 
-<profiles>
+<directory>src/test/java/com/boi/grp/final features</directory>
 
-30.
+<includes>
 
-31
+<include>**/*</include>
 
-32
+</includes>
 
-<profile>
+<followSymlinks>false</followSymlinks>
 
-<id>ParallelExecution</id>
+</fileset>
 
-33
+</filesets>
 
-<activation>
+</configuration>
 
-34
+</executJon>
 
-35
+</executions>
 
-<property>
-
-<name>profile.parallel.execution</name>
-
-<value>true</value>
-
-36
-
-37
-
-38
-
-</property>
-
-</activation>
-
-39
-
-<build>
-
-40
-
-41
-
-42
-
-<plugins>
+</plugin>
 
 <plugin>
 
-<groupId>org.apache.maven.plugins</groupId>
+<groupId>org.codehaus.mojo</groupId>
 
-<artifactId>maven-clean-plugin</artifactId>
+<artifactId>exec-maven-plugin</artifactId>
 
-<version>3.1.0</version>
-
-43
-
-44
-
-45
+<version>3.0.0</version>
 
 <executions>
 
-46
-
 <execution>
 
-47
-
-<phase>initialize</phase>
-
-48
-
-<goals>
-
-49
-
-50
-
-<goal>clean</goal>
-
-</goals>
-
-51
-
-<configuration>
-
-52
+<id>pre-run-steps</id>
