@@ -1,63 +1,93 @@
-<properties>
+<dllPath>$[settings. local Repository)\com\microsoft\sqlserver\mssql-jdbc_auth\${jdbc-mssql-auth-d11}\</d11Path>
 
-<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+</properties>
 
-13
+<profiles>
 
-<maven.compiler.source>1.8</maven.compiler.source>
+30.
 
-14
+31
 
-<maven.compiler.target>1.8</maven.compiler.target> <cucumber.tags>${cucumber.tags)</cucumber.tags>
+32
 
-15
+<profile>
 
-16
+<id>ParallelExecution</id>
 
-<surefire.fork.count> </surefire. fork.count>
+33
 
-17
+<activation>
 
-<cucumber.run.parallel>SCENARIO</cucumber.run.parallel>
+34
 
-<cucumber.version>4.8.1</cucumber.version>
+35
 
-<selenium.version>3.141.59</selenium.version>
+<property>
 
-18
+<name>profile.parallel.execution</name>
 
-19
+<value>true</value>
 
-20
+36
 
-21
+37
 
-<appium.version>6.0.0</appium.version>
+38
 
-22
+</property>
 
-<apache.poi>4.1.2</apache.poi>
+</activation>
 
-23
+39
 
-<aspectj.version>1.8.10</aspectj.version>
+<build>
 
-24
+40
 
-<assertj-core-version>3.19.0</assertj-core-version>
+41
 
-<restassured.version>4.4.0</restassured.version>
+42
 
-25
+<plugins>
 
-26
+<plugin>
 
-27
+<groupId>org.apache.maven.plugins</groupId>
 
-<jjwt.version>0.11.2</jjwt.version>
+<artifactId>maven-clean-plugin</artifactId>
 
-<bouncycastle.version>1.69</bouncycastle.version>
+<version>3.1.0</version>
 
-<jdbc-connector-mssql>9.4.0.jre8</jdbc-connector-mssql>
+43
 
-<jdbc-mssql-auth-d11>9.4.0.x64</jdbc-mssql-auth-d11>
+44
+
+45
+
+<executions>
+
+46
+
+<execution>
+
+47
+
+<phase>initialize</phase>
+
+48
+
+<goals>
+
+49
+
+50
+
+<goal>clean</goal>
+
+</goals>
+
+51
+
+<configuration>
+
+52
