@@ -1,87 +1,103 @@
-<version>${cucumber.version)</version>
+<version>4.12</version>
+
+246
+
+247
 
 </dependency>
 
 <dependency>
 
-<groupId>io.cucumber</groupId>
+<groupId>log4j</groupId>
 
-<artifactId>cucumber-java</artifactId>
+<artifactId>log4j</artifactId>
 
-<version>${cucumber.version)</version>
+248
+
+249
+
+250
+
+<version>1.2.17</version>
+
+251
+
+</dependency>
+
+252
+
+253
+
+254
+
+255
+
+256 257
+
+<dependency>
+
+<groupId>org.seleniumhq.selenium</groupId>
+
+<artifactId>selenium-java</artifactId>
+
+<version>${selenium.version}</version>
 
 </dependency>
 
 <dependency>
 
-<groupId>io.cucumber</groupId>
+<groupId>com.microsoft.edge</groupId>
 
-<artifactId>cucumber-junit</artifactId>
+<artifactId>msedge-selenium-tools-java</artifactId>
 
-<version>${cucumber.version}</version>
+758
+
+259
+
+260
+
+<version>3.141.0</version>
+
+261
+
+262
+
+263
+
+764
+
+:. 7. Structure 265
+
+266
 
 </dependency>
 
 <dependency>
 
-<groupId>io.cucumber</groupId>
+<groupId>com.google.guava</groupId>
 
-<artifactId>cucumber-picocontainer</artifactId>
+<artifactId>guava</artifactId>
 
-<version>${cucumber.version)</version>
+<version>29.0-jre</version>
 
 </dependency>
 
 <dependency>
 
-<groupId>io.cucumber</groupId>
+<groupId>org.apache.httpcomponents</groupId>
 
-<artifactId>cucumber-jvm-deps</artifactId>
+<artifactId>httpclient</artifactId>
 
-228
+267
 
-229
+268
 
-230
+269
 
-231
++2: Favorites:
 
-232
+270
 
-233
+<version>4.5.3</version>
 
-234
-
-235
-
-236
-
-237
-
-1.7: Structure 238
-
-<version>1.0.6</version>
-
-239
-
-<scope>provided</scope>
-
-</dependency>
-
-240
-
-241
-
-242
-
-<dependency>
-
-2: Favorites
-
-243
-
-<groupId>junit</groupId>
-
-<artifactId>junit</artifactId>
-
-244
+271
