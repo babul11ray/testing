@@ -1,63 +1,45 @@
-<strict>true</strict>
+<1--cargtines Xmx6144Me/argLine> -->
 
-<monochrome>true</monochrome>
+<skip>false</skip>
 
-149
+<forkCount>$[surefire. fork.count)</forkCount>
 
-</tags>
+<reuseForks>false</reuse Forks>
 
-150
+<includes>
 
-151
+<include>**/*IT.class</include>
 
-<useTestNG>false</useTestNG>
+</includes>
 
-<!--['simple', feature-title', 'pattern'] -->
+<testFailureIgnore>true</testFailureIgnore>
 
-152
+<<!--<argLine>-Djava. Library.path-$(dllPath)</argLine> -->
 
-153
+<systemPropertyVariables>
 
-154
+<allure.results.directory>${project.build.directory)/allure-results</allure.results.directory>
 
-155
+</systemPropertyVariables>
 
-156
+</configuration>
 
-157
+<dependencies>
 
-158
+<dependency>
 
-159
+<groupId>org.aspectj</groupId>
 
-160
+<artifactId>aspectjweaver</artifactId>
 
-161
+<version>${aspectj.version)</version>
 
-162
+</dependency>
 
-163
-
-. Z: Structure
-
-vorites
-
-164
-
-165
-
-166
-
-167
+</dependencies>
 
 </plugin>
 
 <plugin>
 
-<groupId>org.apache.maven.plugins</groupId>
-
-<artifactId>maven-surefire-plugin</artifactId>
-
-<version>2.22.0</version>
-
-<configuration>
+<groupId>com.trivago.rta</groupId> <artifactId>cluecumber-report-plugin</artifactId>
