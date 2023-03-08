@@ -1,47 +1,63 @@
-<phase>process classes</phase>
-
-goalss
-
-<goal>java</goal>
-
-</goals>
-
-<configuration>
-
-<classpathScope>test</classpathScope>
-
-cmainClass>com.boi.grp.utilities.PreRunUtility</mainClass>
-
-</configuration>
+<mainClass>com.boi.grp.utilities. PostRunUtility</mainClass>
 
 </execution>
 
+101
+
+</executions>
+
+182
+
+103
+
+</plugin>
+
+<plugin>
+
+<groupId>com.github.temyers</groupId>
+
+104
+
+106
+
+07
+
+99
+
+0
+
+1
+
+2
+
+<artifactId>cucumber-jvm-parallel-plugin</artifactId>
+
+<version>5.0.0</version>
+
+<executions>
+
 <execution>
 
-<id>post-run-steps</id>
+<id>generateRunners</id>
 
-<phase>post-integration-test</phase>
+<phase>generate-test-sources</phase>
 
 <goals>
 
-<goal>java</goal>
+<goal>generateRunners</goal>
 
 </goals>
 
 <configuration>
 
-<systemProperties>
+<glue>
 
-<systemProperty>
+<package>com.boi</package>
 
-<key>mavenLocalRepo</key>
+</glue>
 
-<value>$(settings. localRepository)/org/aspectj/aspectjweaver/${aspectj.version)/aspectjweaver-$
+<outputDirectory>${project.build.directory)/generated-test-sources/cucumber</outputDirectory>
 
-</systemProperty>
+<featuresDirectory>src/test/java/com/boi/grp/final features</featuresDirectory>
 
-</systemProperties>
-
-<classpathScope>test</classpathScope>
-
-bei den
+<cucumberOutputDir>target/cucumber-parallel</cucumberOutputDir>
