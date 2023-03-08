@@ -1,63 +1,45 @@
-<mainClass>com.boi.grp.utilities. PostRunUtility</mainClass>
+<plugins>
 
-</execution>
+<plugin>
 
-101
-
-</executions>
-
-182
-
-103
+<name>pretty</name>
 
 </plugin>
 
 <plugin>
 
-<groupId>com.github.temyers</groupId>
+<name>json</name>
 
-104
+</plugin>
 
-106
+<plugin>
 
-07
+I
 
-99
+<name>junit</name>
 
-0
+</plugin>
 
-1
+<plugin>
 
-2
+<name>html</name>
 
-<artifactId>cucumber-jvm-parallel-plugin</artifactId>
+<extension>html</extension>
 
-<version>5.0.0</version>
+</plugin>
 
-<executions>
+<plugin>
 
-<execution>
+<name>io.gameta.allure.cucumber4jvm. AllureCucumber43vm</name>
 
-<id>generateRunners</id>
+<noOutput>true</noOutput>
 
-<phase>generate-test-sources</phase>
+</plugin>
 
-<goals>
+<plugin>
 
-<goal>generateRunners</goal>
+<name>rerun</name>
 
-</goals>
+</plugin>
 
-<configuration>
-
-<glue>
-
-<package>com.boi</package>
-
-</glue>
-
-<outputDirectory>${project.build.directory)/generated-test-sources/cucumber</outputDirectory>
-
-<featuresDirectory>src/test/java/com/boi/grp/final features</featuresDirectory>
-
-<cucumberOutputDir>target/cucumber-parallel</cucumberOutputDir>
+</plugins>
