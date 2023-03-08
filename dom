@@ -1,39 +1,47 @@
-<filesets>
+<phase>process classes</phase>
 
-<fileset>
+goalss
 
-<directory>src/test/java/com/boi/grp/final features</directory>
+<goal>java</goal>
 
-<includes>
+</goals>
 
-<include>**/*</include>
+<configuration>
 
-</includes>
+<classpathScope>test</classpathScope>
 
-<followSymlinks>false</followSymlinks>
-
-</fileset>
-
-</filesets>
+cmainClass>com.boi.grp.utilities.PreRunUtility</mainClass>
 
 </configuration>
 
-</executJon>
-
-</executions>
-
-</plugin>
-
-<plugin>
-
-<groupId>org.codehaus.mojo</groupId>
-
-<artifactId>exec-maven-plugin</artifactId>
-
-<version>3.0.0</version>
-
-<executions>
+</execution>
 
 <execution>
 
-<id>pre-run-steps</id>
+<id>post-run-steps</id>
+
+<phase>post-integration-test</phase>
+
+<goals>
+
+<goal>java</goal>
+
+</goals>
+
+<configuration>
+
+<systemProperties>
+
+<systemProperty>
+
+<key>mavenLocalRepo</key>
+
+<value>$(settings. localRepository)/org/aspectj/aspectjweaver/${aspectj.version)/aspectjweaver-$
+
+</systemProperty>
+
+</systemProperties>
+
+<classpathScope>test</classpathScope>
+
+bei den
