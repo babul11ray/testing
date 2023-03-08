@@ -1,103 +1,101 @@
-<version>4.12</version>
+<dependency>
 
-246
+<groupId>io.github.bonigarcia</groupId>
 
-247
+<artifactId>webdrivermanager</artifactId>
+
+275
+
+276
+
+<version>4.2.0</version>
+
+277
+
+</dependency>
+
+278
+
+279
+
+280
+
+281
+
+<dependency>
+
+<groupId>io.appium</groupId>
+
+<artifactId>java-client</artifactId>
+
+<version>${appium.version)</version>
+
+</dependency>
+
+282
+
+283
+
+284
+
+285
+
+I
+
+<dependency>
+
+<groupId>net.sourceforge.jexcelapi</groupId> <artifactId>jxl</artifactId>
+
+286
+
+287
+
+288
+
+<version>2.6</version>
+
+289
+
+290
 
 </dependency>
 
 <dependency>
 
-<groupId>log4j</groupId>
+<groupId>org.apache.poi</groupId>
 
-<artifactId>log4j</artifactId>
+<artifactId>ooxml-schemas</artifactId>
 
-248
+291
 
-249
+292
 
-250
+293
 
-<version>1.2.17</version>
+294
 
-251
+295
 
-</dependency>
+*2: Favorites I. 7: Structure
 
-252
+296
 
-253
-
-254
-
-255
-
-256 257
-
-<dependency>
-
-<groupId>org.seleniumhq.selenium</groupId>
-
-<artifactId>selenium-java</artifactId>
-
-<version>${selenium.version}</version>
+<version>1.4</version>
 
 </dependency>
 
 <dependency>
 
-<groupId>com.microsoft.edge</groupId>
+<groupId>org.apache.poi</groupId>
 
-<artifactId>msedge-selenium-tools-java</artifactId>
+<artifactId>poi</artifactId>
 
-758
-
-259
-
-260
-
-<version>3.141.0</version>
-
-261
-
-262
-
-263
-
-764
-
-:. 7. Structure 265
-
-266
+<version>${apache.poi)</version>
 
 </dependency>
 
-<dependency>
+project
 
-<groupId>com.google.guava</groupId>
+dependencies dependency
 
-<artifactId>guava</artifactId>
-
-<version>29.0-jre</version>
-
-</dependency>
-
-<dependency>
-
-<groupId>org.apache.httpcomponents</groupId>
-
-<artifactId>httpclient</artifactId>
-
-267
-
-268
-
-269
-
-+2: Favorites:
-
-270
-
-<version>4.5.3</version>
-
-271
+version
