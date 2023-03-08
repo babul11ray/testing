@@ -1,45 +1,99 @@
-<1--cargtines Xmx6144Me/argLine> -->
+<version>2.7.0</version>
 
-<skip>false</skip>
+193
 
-<forkCount>$[surefire. fork.count)</forkCount>
+<executions>
 
-<reuseForks>false</reuse Forks>
+I
 
-<includes>
+194
 
-<include>**/*IT.class</include>
+<execution>
 
-</includes>
+195
 
-<testFailureIgnore>true</testFailureIgnore>
+196
 
-<<!--<argLine>-Djava. Library.path-$(dllPath)</argLine> -->
+197
 
-<systemPropertyVariables>
+<id>report</id>
 
-<allure.results.directory>${project.build.directory)/allure-results</allure.results.directory>
+<phase>post-integration-test</phase>
 
-</systemPropertyVariables>
+<goals>
+
+<goal>reporting</goal>
+
+</goals>
+
+</execution>
+
+198
+
+199
+
+200
+
+201
+
+</executions>
+
+282
+
+203
+
+204
+
+205
+
+206
+
+<configuration>
+
+<customPageTitle>Cucumber Execution Report</customPageTitle>
+
+<startPage>ALL FEATURES</startPage>
+
+<sourceJsonReportDirectory>$[project.build.directory)/cucumber-parallel</sourceJsonReportDirectory>
+
+<generatedHtmlReportDirectory>${project.build.directory)/html-report</generatedHtmlReportDirectory>
 
 </configuration>
 
+</plugin>
+
+</plugins>
+
+</build>
+
+207
+
+208
+
+289
+
+210
+
+211
+
+</profile>
+
+212 2: Favorites 7: Structure
+
+</profiles>
+
+213
+
+214
+
 <dependencies>
+
+215
+
+216
 
 <dependency>
 
-<groupId>org.aspectj</groupId>
+<groupId>io.cucumber</groupId>
 
-<artifactId>aspectjweaver</artifactId>
-
-<version>${aspectj.version)</version>
-
-</dependency>
-
-</dependencies>
-
-</plugin>
-
-<plugin>
-
-<groupId>com.trivago.rta</groupId> <artifactId>cluecumber-report-plugin</artifactId>
+<artifactId>cucumber-core</artifactId>
