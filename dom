@@ -1,51 +1,31 @@
 <dependency>
 
-<groupId>com.fasterxml.jackson.core</groupId> <artifactId>jackson-databind</artifactId>
+<groupId>io.rest-assured</groupId>
 
-<version>2.13.0</version>
-
-349
-
-350
-
-351
+<artifactId>json-schema-validator</artifactId> <version>${restassured.version}</version>
 
 </dependency>
 
 <dependency>
 
-<groupId>com.fasterxml.jackson.dataformat</groupId> <artifactId>jackson-dataformat-csv</artifactId>
-
-352
-
-353
-
-354
-
-355
-
-356
-
-357
-
-358
-
-359
-
-360
-
-<version>2.13.0</version>
+<groupId>io.rest-assured</groupId> <artifactId>rest-assured</artifactId> <version>${restassured.version}</version>
 
 </dependency>
 
 <dependency>
 
-<groupId>com.fasterxml.jackson.dataformat</groupId> <artifactId>jackson-dataformat-xml</artifactId>
-
-361
-
-362
-
-<version>2.13.0</version>
+<groupId>io.jsonwebtoken</groupId> <artifactId>jjwt-api</artifactId> <version>${jjwt.version)</version>
 
 </dependency>
+
+<dependency>
+
+<groupId>io.jsonwebtoken</groupId> <artifactId>jjwt-gson</artifactId> <version>${jjwt.version)</version>
+
+</dependency>
+
+<dependency>
+
+<groupId>io.jsonwebtoken</groupId> <artifactId>jjwt-impl</artifactId> <version>${jjwt.version}</version>
+
+dependencyl
