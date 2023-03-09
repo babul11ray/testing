@@ -1,77 +1,37 @@
 <dependency>
 
-431
+<groupId>com.github.tonakehurst</groupId> <artifactId>wiremock-jre8-standalone</artifactId>
 
-432
-
-433
-
-<version>2.16.0</version>
-
-</dependency>
-
-<groupId>io.qameta.allure</groupId> <artifactId>allure-model</artifactId>
-
-434
-
-<dependency>
-
-<groupId>io.qameta.allure</groupId>
-
-<artifactId>allure-plugin-api</artifactId> <version>2.16.0</version>
-
-435
-
-436
-
-437
-
-438
+<version>2.27.2</version>
 
 </dependency>
 
 <dependency>
 
-<groupId>com.aventstack</groupId>
+<groupId>com.google.code.gson</groupId>
 
-439
+<artifactId>gson</artifactId>
 
-440
-
-441
-
-442
-
-443
-
-<artifactId>extent reports-cucumber4-adapter</artifactId>
-
-<version>1.0.12</version>
-
-444
-
-</dependency>
-
-445
-
-446
-
-<dependency>
-
-<groupId>net.masterthought</groupId>
-
-<artifactId>cucumber-reporting</artifactId>
-
-447
-
-ler) 448
-
-449
-
-450
-
-<version>5.6.1</version>
+<version>2.8.9</version>
 
 </dependency>
 
 <dependency>
+
+<groupId>org.json</groupId>
+
+<artifactId>json</artifactId>
+
+<version>20210307</version>
+
+</dependency>
+
+<dependency>
+
+<groupId>net.rcarz</groupId>
+
+<artifactId>jira-client</artifactId>
+
+project
+
+<version>0.5</version>
