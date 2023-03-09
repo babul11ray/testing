@@ -1,79 +1,77 @@
 <dependency>
 
-<groupId>org.bouncycastle</groupId>
+431
 
-<artifactId>bcpkix-jdk15on</artifactId> <version>${bouncycastle.version)</version>
+432
 
-</dependency>
+433
 
-<dependency>
-
-<groupId>org.bouncycastle</groupId>
-
-<artifactId>bcprov-jdk15on</artifactId> <version>${bouncycastle.version)</version>
+<version>2.16.0</version>
 
 </dependency>
 
-<dependency>
+<groupId>io.qameta.allure</groupId> <artifactId>allure-model</artifactId>
 
-<groupId>net.sf.json-lib</groupId> <artifactId>json-lib</artifactId>
-
-408
-
-409
-
-410
-
-411
-
-412
-
-413
-
-414
-
-<version>2.4</version>
-
-415
-
-<classifier>jdk15</classifier>
-
-416
-
-417
-
-</dependency>
-
-418
-
-419
-
-420
+434
 
 <dependency>
 
 <groupId>io.qameta.allure</groupId>
 
-<artifactId>allure-cucumber4-jvm</artifactId>
+<artifactId>allure-plugin-api</artifactId> <version>2.16.0</version>
 
-andler) 421
+435
 
-<version>2.16.0</version>
+436
 
-422
+437
 
-423
+438
 
 </dependency>
 
-424
+<dependency>
 
-425
+<groupId>com.aventstack</groupId>
+
+439
+
+440
+
+441
+
+442
+
+443
+
+<artifactId>extent reports-cucumber4-adapter</artifactId>
+
+<version>1.0.12</version>
+
+444
+
+</dependency>
+
+445
+
+446
 
 <dependency>
 
-<groupId>io.qameta.allure</groupId> <artifactId>allure-generator</artifactId>
+<groupId>net.masterthought</groupId>
 
-426
+<artifactId>cucumber-reporting</artifactId>
 
-<version>2.16.8</version>
+447
+
+ler) 448
+
+449
+
+450
+
+<version>5.6.1</version>
+
+</dependency>
+
+<dependency>
