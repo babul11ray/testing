@@ -1,109 +1,51 @@
-<version>${jdbc-connector-mssql}</version>
+<dependency>
+
+<groupId>com.fasterxml.jackson.core</groupId> <artifactId>jackson-databind</artifactId>
+
+<version>2.13.0</version>
+
+349
+
+350
+
+351
 
 </dependency>
 
 <dependency>
 
-<groupId>com.teradata</groupId>
+<groupId>com.fasterxml.jackson.dataformat</groupId> <artifactId>jackson-dataformat-csv</artifactId>
 
-<artifactId>tdgssconfig</artifactId>
+352
 
-<version>1.0</version>
+353
 
-327
+354
 
-per.java
+355
 
-328
+356
 
-329
+357
 
-330
+358
 
-ava
+359
 
-331
+360
 
-ava
-
-332
+<version>2.13.0</version>
 
 </dependency>
 
 <dependency>
 
-<groupId>com.teradata</groupId>
+<groupId>com.fasterxml.jackson.dataformat</groupId> <artifactId>jackson-dataformat-xml</artifactId>
 
-<artifactId>terajdbc4</artifactId>
+361
 
-java
+362
 
-ון
-
-333
-
--java
-
-334
-
-java
-
-335
-
-<version>1.0</version>
-
-s.java
-
-336
-
-ty.java
-
-337
-
-java
-
-338
+<version>2.13.0</version>
 
 </dependency>
-
-<dependency>
-
-<groupId>com.oracle.ojdbc</groupId>
-
-<artifactId>ojdbc8</artifactId>
-
-<version>19.3.0.0</version>
-
-er.java
-
-339
-
-java
-
-340
-
-ponseHandler.j 341
-
-342
-
-</dependency>
-
-<dependency>
-
-<groupId>commons-dbutils</groupId>
-
-<artifactId>commons-dbutils</artifactId>
-
-343
-
-344
-
-345
-
-<version>1.6</version>
-
-346
-
-</dependency>
-
-Low
