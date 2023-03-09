@@ -1,37 +1,99 @@
 <dependency>
 
-<groupId>com.github.tonakehurst</groupId> <artifactId>wiremock-jre8-standalone</artifactId>
+Ant
 
-<version>2.27.2</version>
+479
 
-</dependency>
+480
 
-<dependency>
+E Maven
 
-<groupId>com.google.code.gson</groupId>
+481
 
-<artifactId>gson</artifactId>
+482
 
-<version>2.8.9</version>
+<groupId>org.assert j</groupId>
 
-</dependency>
-
-<dependency>
-
-<groupId>org.json</groupId>
-
-<artifactId>json</artifactId>
-
-<version>20210307</version>
+<artifactId>assertj-core</artifactId> <version>${assertj-core-version}</version>
 
 </dependency>
 
 <dependency>
 
-<groupId>net.rcarz</groupId>
+<groupId>org.httprpc</groupId> <artifactId>httprpc-client</artifactId>
 
-<artifactId>jira-client</artifactId>
+483
 
-project
+484
 
-<version>0.5</version>
+485
+
+486
+
+<version>8.3.2</version>
+
+487
+
+</dependency>
+
+ון
+
+488
+
+I
+
+489
+
+<dependency>
+
+<groupId>pl.pragmatists</groupId> <artifactId>JUnitParams</artifactId>
+
+490
+
+491
+
+<version>1.0.4</version>
+
+492
+
+493
+
+5
+
+</dependency>
+
+<dependency>
+
+<groupId>com.github.javafaker</groupId> <artifactId>javafaker</artifactId>
+
+494
+
+495
+
+496
+
+<version>1.0.2</version>
+
+497
+
+498
+
+</dependency>
+
+<dependency>
+
+<groupId>com.jayway.jsonpath</groupId>
+
+<artifactId>json-path</artifactId>
+
+499
+
+500
+
+581
+
+<version>2.6.0</version>
+
+582
+
+</dependency>
