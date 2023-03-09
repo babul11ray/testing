@@ -1,99 +1,25 @@
 <dependency>
 
-Ant
+<groupId>com.boi</groupId>
 
-479
+<artifactId>crypt</artifactId>
 
-480
+<version>1.0</version>
 
-E Maven
+<scope>system</scope>
 
-481
+<systemPath>${basedir}/src/test/resources/crypt-util/Crypter.jar</systemPath>
 
-482
-
-<groupId>org.assert j</groupId>
-
-<artifactId>assertj-core</artifactId> <version>${assertj-core-version}</version>
+8
 
 </dependency>
 
-<dependency>
+</dependencies>
 
-<groupId>org.httprpc</groupId> <artifactId>httprpc-client</artifactId>
+99
 
-483
+10
 
-484
+11
 
-485
-
-486
-
-<version>8.3.2</version>
-
-487
-
-</dependency>
-
-ון
-
-488
-
-I
-
-489
-
-<dependency>
-
-<groupId>pl.pragmatists</groupId> <artifactId>JUnitParams</artifactId>
-
-490
-
-491
-
-<version>1.0.4</version>
-
-492
-
-493
-
-5
-
-</dependency>
-
-<dependency>
-
-<groupId>com.github.javafaker</groupId> <artifactId>javafaker</artifactId>
-
-494
-
-495
-
-496
-
-<version>1.0.2</version>
-
-497
-
-498
-
-</dependency>
-
-<dependency>
-
-<groupId>com.jayway.jsonpath</groupId>
-
-<artifactId>json-path</artifactId>
-
-499
-
-500
-
-581
-
-<version>2.6.0</version>
-
-582
-
-</dependency>
+</project>
